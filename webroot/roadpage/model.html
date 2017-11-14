@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>回忆-我的青春_在路上</title>
+    <meta name="Keywords" content="博客,情侣博客" >
+    <meta name="Description" content="情侣博客" >
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/onRoad.css" rel="stylesheet">
+    <link href="../css/roadpage.css" rel="stylesheet">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/onroad.js"></script>
+    <script src="../js/roadpage.js"></script>
+    <script src="../js/userStatu.js"></script>
+    <script src="https://use.fontawesome.com/55b5a1fcdd.js"></script>
+</head>
+<body>
+<div class="topnav"  >
+    <font color="white"  size="6px">
+        <marquee direction="left"  height="50" >
+            在路上————我们在春风中牵手，静听鸟语花香，静听花瓣安然飘落，在木棉花下许愿，希望在每一个木棉花的春天一起度过。无数个昨天，发生了的，最后都归结成甜美的记忆，一页一页，散发着春天的香气，弥漫了春季的恋歌。回首处，再回首。唯一的明天，唯一的欢欣，在每个今天的尽处，相约，永恒。
+        </marquee>
+    </font>
+</div>
+<header>
+    <div class="quotes">
+        <p>初遇时，她的微笑，她往日的深情、承诺和傻劲，两个人共度的美丽时刻，一一印在回忆里，今天的感情已经比不上从前，但是我爱着恋着往日的她，舍不得离开。</p>
+        <div class="text5">记录・回忆</div>
+        <div class="flower"><img src="../images/flower.jpg"></div>
+    </div>
+    <!--nav begin-->
+    <div id="nav">
+        <ul>
+            <li class="nav"  ><div  ><a href="../index.html">首页</a></div></li>
+            <li class="nav"  ><div  ><a href="../about.html">关于我</a></div></li>
+            <li class="nav" ><div  ><a href="../whisper.html">悄悄话</a></div></li>
+            <li class="nav"  ><div  ><a href="../life.html">慢生活</a></div></li>
+            <li class="nav"  ><div class="checked"><a href="../ontheroad.html">在路上</a></div></li>
+            <li class="nav"  ><div  ><a href="../message.html">留言板</a></div></li>
+        </ul>
+    </div>
+    <!--nav end-->
+</header>
+
+<div class="left">
+    <div class="list"  >
+        <!-- 定位-->
+        <div class="position">
+            <h3>您当前位置：<a href="../index.html">首页</a> >
+                <a href="../ontheroad.html">在路上</a>>
+                <!-- 本页地址-->
+                <a href=" ">  </a>
+            </h3>
+        </div>
+        <div class="line"></div>
+        <!-- 标题-->
+        <div class="head">
+            <h1> </h1>
+            <div id="info" class="info">
+            </div>
+        </div>
+
+        <!-- 段落-->
+        <div class="article">
+            <p class="content">   </p>
+            <p class="content">   </p>
+        </div>
+        <!-- 上下篇推荐-->
+        <div class="upordown">
+            <p id="up">上一篇：</p>
+            <p id="down">下一篇：</p>
+        </div>
+        <!--评论专区-->
+        <div class="comments">
+            <div class="comments-lbl"><div class="comments-lbl-title">评论专区</div></div>
+            <div class="comments-body">
+                <div class="comments-input">
+                    <textarea id="comCon" placeholder="既然来了，就说几句吧"></textarea>
+                    <button onclick="publish()">畅言一下</button>
+                </div>
+            </div>
+            <div class="comments-lbl"><div class="comments-lbl-title">最新评论</div></div>
+            <div class="comments-body-list">
+                <div class="user-list" id="user-list">
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<div class="right">
+    <div class="new">
+        <div class="right-lbl"><h1>栏目最新</h1></div>
+        <div class="bount"></div>
+        <ul id="newlist">
+
+        </ul>
+    </div>
+    <div class="hot">
+        <div class="right-lbl"><h1>栏目热门</h1></div>
+        <div class="bount"></div>
+        <ul id="hotlist">
+
+        </ul>
+    </div>
+    <div class="newVisit">
+        <div class="right-lbl"><h1>最新评论</h1></div>
+        <div class="bount"></div>
+        <ul id="visitorlist">
+
+        </ul>
+    </div>
+    <div class="newComments">
+        <div class="right-lbl"><h1>最近访客</h1></div>
+        <div class="bount"></div>
+        <ul id="commentslist">
+
+        </ul>
+    </div>
+</div>
+
+</body>
+<script>
+    statu();
+    flushHot();
+    flushNew();
+    getData();
+</script>
+</html>

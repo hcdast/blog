@@ -1,0 +1,74 @@
+.whisper{
+	display:none;
+    width: 600px;
+    height: 400px
+     
+}
+/*author*/
+.w_author{
+	margin-bottom: -20px;
+}
+.w_author .w_lbl{
+	margin: 3px 0px 0px 70px;
+	color: white;
+	height: 60px;
+	width: 150px;
+	display: block;
+	float: left
+}
+.w_author .w_tp{
+	color: white;
+	display: block;
+	width: 400px;
+	height: 60px;
+	margin: 20px 0px 0px -100px;
+	font-size: 30px
+}
+.w_author .w_tp .w_au{
+	height: 30px;
+	margin: 0px 0px 0px -150px;
+	text-align: center
+}
+
+/*content*/
+.w_content{
+	margin-top: 20px;
+}
+.w_content .w_con{
+	margin-left: -150px;
+	color: white;
+	height: 100px;
+	width: 150px;
+	display: block;
+	float: left
+}
+.w_content .w_txta{
+	height: 100px;
+}
+.w_content .w_txta textarea{
+	background: url(../life/bg3.jpg)
+}
+
+#w_content{
+	font-size: 20px;
+	width: 300px;
+	height: 100px;
+	margin: 0px 0px 0px -100px
+}
+
+.w_btn {
+	margin-top: 30px;
+	width: 150px;
+	height: 50px
+}
+
+.w_btn button {
+	text-align: center;
+	font-size: 16px;
+	color: green;
+	background: url(../life/bg3.jpg);
+	width: 300px;
+	height: 40px;
+	margin-left: -15px;
+}
+ 

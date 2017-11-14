@@ -1,0 +1,116 @@
+.life{
+	display: none;
+    width: 600px;
+    height: 400px
+     
+}
+/*title*/
+.l_title{
+	margin-bottom: -20px;
+}
+.l_title .l_lable {
+    color: white;
+    height: 60px;
+     width:200px ;
+     display: block;
+     float: left
+}
+#l_title {
+	font-size: 20px;
+	width: 350px;
+	height: 30px;
+	margin: 0px 0px 0px -60px;
+	text-align: center
+}
+.l_title .l_textT{
+    display: block;
+    width: 400px;
+    height: 60px;
+    margin: 20px 0px 0px 0px
+}
+.l_title .l_textT input{
+	background: url(../life/bg3.jpg)
+}
+
+
+
+
+/*author*/
+.l_author{
+	margin-bottom: -20px;
+}
+.l_author .l_lbl{
+	color: white;
+	height: 60px;
+	width: 200px;
+	display: block;
+	float: left
+}
+.l_author .l_tp{
+	color: white;
+	display: block;
+	width: 400px;
+	height: 60px;
+	margin: 20px 0px 0px 0px;
+	font-size: 30px
+}
+.l_author .l_tp .l_au{
+	height: 30px;
+	margin: 0px 0px 0px -150px;
+	text-align: center
+}
+/*type*/
+.l_type{
+	margin-bottom: -60px;
+}
+.l_type .l_ty{
+	color: white;
+	height: 60px;
+	width: 200px;
+	display: block;
+	float: left
+}
+.l_type .l_lec{
+	height: 30px;
+	margin: 25px 0px 100px 0px;
+	text-align: center
+}
+#l_type{
+	font-size: 20px;
+	height: 30px;
+	width: 150px;
+	margin: 0px 0px 0px -200px;
+	text-align: center
+}
+/*content*/
+.l_content{
+	margin-bottom: -60px
+}
+.l_content .l_con{
+	color: white;
+	height: 100px;
+	width: 200px;
+	display: block;
+	float: left
+}
+.l_content .l_txta{
+	height: 100px;
+}
+#l_content{
+	font-size: 20px;
+	width: 350px;
+	height: 150px;
+	margin: 0px 0px 0px -150px
+}
+
+.l_btn {
+	margin-top: 120px;
+	width: 100px;
+	height: 40px
+}
+.l_btn button{
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	color: green;
+}

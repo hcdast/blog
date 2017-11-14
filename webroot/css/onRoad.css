@@ -1,0 +1,188 @@
+@charset "gb2312";
+/* CSS Document */
+
+/*main*/
+.more {
+    margin-bottom: 10px;
+}
+
+/*list*/
+
+.left{
+    margin-top: 10px;
+    width: 65%;
+    background: white;
+      }
+
+.list{
+
+    text-align: center;
+    margin: 0px 0px 0px -20%;
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+    background: aliceblue;
+}
+.list h3{
+    text-align: left;
+    margin: 10px 0px 0px 25px;
+}
+.list img{
+    width: 95%;
+    margin: 0px 0px 0px 20px;}
+
+.message{  margin-top: 10px;width: 100%;}
+
+.message .title{
+    font-size: 14px;
+    color: #000
+}
+.message ul img{
+    margin: 20px 430px 0px 0px;
+ }
+.message .word{
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    line-height: 1.9
+}
+.message .img{
+    margin: 0px 0px 0px 30px;
+    width: 40%;
+    display: block;
+    float: left;
+}
+.message .wd{
+    margin: 3% 0px 0px 45%;
+    display: block;
+    width: 50%;
+    height: 180px;
+}
+.message .wd a{
+    font-size: 16px;
+    margin: 0px -100px 0px 135px;
+    background: orange;
+    color: white
+}
+
+.message .act {
+    margin-left: 110px;
+}
+.message .act i{
+    cursor: pointer;
+    margin-left: 20px;
+}
+.message .act i:hover {
+    color: orangered;
+}
+.message .act a {
+    color: blue;
+}
+.message .act a:hover {
+    color: orangered;
+}
+.message .abount {
+    height: 1px;
+    background: yellowgreen ;
+    margin-top: 10px;
+}
+
+
+.more .btn{
+    width: 100%;
+    height: 50px;
+}
+
+.right{
+    margin: 10px 0px 0px 75%;
+    width: 30%;
+    background: aliceblue;
+}
+
+.bount {
+    width: 100%;
+    height: 3px;
+    background: url(../road/bound.jpg);
+    background-size: cover;
+}
+
+.right-lbl {
+    margin-right: 290px;
+    width: 120px;
+    background: seagreen;
+    color: honeydew;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+}
+.new{
+    width: 100%;
+    height: 300px;
+    display: block;
+
+}
+.hot{
+
+    width: 100%;
+    display: block;
+    height: 300px;
+
+}
+.right a {
+    color: #272a30;
+}
+.right a:hover {
+    color: orangered ;
+    text-decoration: underline ;
+}
+.right .new ul li{
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 10%;
+    text-align: left;
+    font-family: cursive;
+    font-size: 16px;
+}
+.right .hot ul li{
+    width: 90%;
+    margin-top:5px;
+    margin-left: 10%;
+    text-align: left;
+    font-family: cursive;
+    font-size: 15px
+}
+
+.right .new .first a{
+    font-size: 18px;
+    color: orangered;
+}
+.right .new .seconed a{
+    font-size: 17px;
+    color: orange;
+}.right .new .third a{
+     font-size: 16px;
+     color: coral;
+ }
+
+.right .hot .first a{
+    font-size: 17px;
+    color: orangered;
+}
+.right .hot .seconed a{
+    font-size: 16px;
+    color: orange;
+}.right .hot .third a{
+     font-size: 15px;
+     color: coral;
+ }
+
+
+
+
+/*footer*/
+footer{ background:#032e13; height:56px; line-height:56px;}
+footer p{ width:1000px; margin:auto; text-align:center;color:#559664 }
+footer p a{color:#559664}
+footer p a:hover{ text-decoration:underline}
+/*topnav*/
+.topnav{ line-height:50px; height:50px; color:#000; text-align:center;  position:fixed; width:100%; top:0; z-index:999; box-shadow:#333 0px 2px 2px}

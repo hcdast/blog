@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+/* main */
+ .main {
+	 padding: 20px;
+ 	 margin: 2% 0 0 4%;
+ 	 height: auto;
+ 	 width: 100%;
+ 	 display: block;
+	 background: ghostwhite;
+ }
+ 
+/*my*/
+ .main .my{
+ 	height: 240px;
+ 	width: 100%;
+ 	display: block
+ }
+ .main .my .myimg{
+ 	display: block;
+ 	float: left
+ }
+.main .my .myimg img{
+	margin:  0px 0px 0px 50px;
+}
+.main .my .myinfo{
+	background: url(../about/boy.jpg);
+	margin: 20px 0px 0px 35%;
+	width: 60%;
+	height: 250px;
+}
+.main .my .myinfo .wd{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	line-height: 1.9;
+	color: brown;
+}
+/*abount*/
+.abount{
+	height: 20px;
+	margin: 0px 0px 0px 10%;
+}
+
+/*her*/
+ .main .her{
+ 	margin: 40px 0px 0px 0px;
+ 	height: 300px;
+ 	width: 100%;
+ 	display: block; 
+ }
+ .main .her .herinfo{
+	 background: url(../about/girl.jpg);
+	 display: block;
+	 float: left;
+	 margin: 0px 0px 0px 4%;
+	 width: 60%;
+	 height: 250px;
+}
+.main .her .herimg{
+	display: block;
+	margin: 20px 0px 0px  70%;
+    
+}
+.main .her .herinfo .wd{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	line-height: 1.9;
+	color: darkgoldenrod;
+}
+/*line*/
+.line {
+	height: 5px;
+	width: 100%;
+	border-bottom: dashed gray 2px;
+}
+
+
+
+/*groom*/
+.groom{
+	margin: -20px 0px 0px 40px;
+	height: 400px
+}
+.groom h1{
+	margin: -10px 0px 0px 0px;
+}
+.groom .photo .left{
+	margin: 20px 0px 0px 0px;
+	height: 300px;
+	width: 400px;
+	display: block;
+	float: left;
+	background: url("../about/photo2.jpg");
+}
+
+.groom .photo .left .leftup img{
+	margin: 20px 0px 0px 32px;
+}
+.groom .photo .left .leftdown{
+	margin: 7px 0px 0px 35px;
+}
+.groom .photo .left .leftright{
+	margin: -260px 0px 0px 170px;
+}
+
+.groom .photo .right {
+	float: left;
+	height: 40%;
+	display: block;
+	text-align: center;
+	margin: 0px 0px 0px 10%;
+	width: 450px;
+}
+.groom .photo .right .head img{
+	margin: 0px 200px -30px 0px;
+}
+
+.groom .photo .right p {
+	color: green;
+	font-size: 16px;
+	text-align: left;
+	line-height: 2.0;
+	padding-left: 40px;
+}
+.groom .photo .right .sao {
+	margin: 0px 0px 0px 40px;
+	width: 360px;
+	background: orange;
+	color: white;
+	font-size: 18px;
+	text-align: center
+}
+.groom .photo .right  .qq{
+	margin: 0px 80px 0px 0px;
+}
+.groom .photo .right .weixin{
+
+}
+
+
+
+/*friend*/
+ .friend{
+	margin: -20px 0px 0px 40px;
+	height: 200px
+}
+.friend h1{
+	margin: -10px 0px 0px 0px;
+}
+
+.friend .bugbank,.baidu,.alibb,.tecent {
+	margin: 10px 0px 0px 30px;
+	display: block;
+	float: left
+}
+.friend .wangyi,.sina,.fenghuang,.hexun {
+	margin: 10px 0px 0px 30px;
+	display: block;
+	float: left
+}
+ 
+
+.friend .bugbank,.baidu,.alibb,.tecent,.wangyi,.sina,.fenghuang,.hexun h2{
+	text-align: center;
+	color: brown;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer{ background:#032e13; height:56px; line-height:56px;}
+footer p{ width:1000px; margin:auto; text-align:right;color:#559664 }
+footer p a{color:#559664}
+footer p a:hover{ text-decoration:underline}
+/*topnav*/
+.topnav{ line-height:50px; height:50px; color:#000; text-align:center; position:fixed; width:100%; top:0; z-index:999; box-shadow:#333 0px 2px 2px}

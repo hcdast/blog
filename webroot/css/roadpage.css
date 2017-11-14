@@ -1,0 +1,185 @@
+
+.line {
+    margin-top: 5px;
+    height: 5px;
+    width: 93%;
+    background: url(../road/bound.jpg);
+}
+.info {
+    width: 93%;
+    margin-top: 10px;
+    background: darkkhaki;
+}
+
+.article {
+    margin-bottom: 40px;
+}
+
+.left {
+    height: 100%;
+    margin-left: 17%;
+}
+.content{
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+    text-indent:20px;
+    line-height: 1.8;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.upordown {
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-left: 8%;
+    font-size: 14px;
+    text-align: left;
+    color: maroon;
+}
+.upordown a {
+    color: maroon;
+    margin-left: 10px;
+}
+
+.abount{
+    height: 1px;
+    background: yellowgreen ;
+    margin-top: 10px;
+}
+
+.comments {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.comments-lbl {
+    margin-left: 0px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 2px seagreen solid;
+}
+.comments-lbl-title {
+    margin-left: 0px;
+    width: 25%;
+    background: seagreen;
+    color: honeydew;
+    border-radius: 0px 10px 0px 0px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.comments-body {
+    margin-top: 5px;
+    width: 100%;
+    background: azure;
+}
+
+.comments-input {
+    margin-bottom: 5px;
+}
+
+.comments-input textarea {
+    width: 90%;
+    height: 80px;
+    border-radius: 15px;
+    outline: none;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 5px;
+    color: saddlebrown;
+}
+
+.comments-input button {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 18%;
+    height: 40px;
+    margin-left: 75%;
+    background: saddlebrown;
+}
+.comments-body-list {
+    width: 100%;
+    height: auto;
+}
+
+.comments-body-list {
+    background: azure;
+
+}
+
+.user-list dl {
+    margin-top: 20px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 12px;
+    border-bottom: 1px dashed gray;
+}
+
+.user-list .img{height: 50px;
+    width: 50px;
+    margin-left: 10%;}
+.user-list .img img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 100%;
+    margin-left: -80%;
+}
+.user-list .user {
+    margin-top: -45px;
+}
+.user-list .time {
+    margin-top: -16px;
+    margin-left: 70%;
+    }
+.user-list .user a {
+    margin-left: -65%;
+}
+
+.user-list .review {
+    margin-top: 5px;
+ }
+.user-list .review p{margin-left: -55%;}
+
+.user-list .act {
+    margin-bottom: 5px;
+    margin-left: 55%;
+}
+.user-list .act i {
+    margin-left: 5px;
+}
+.user-list .act i:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+.reply-list {
+    margin-top: 20px;
+    height: auto;
+    width: 90%;
+}
+.user-list .u-reply {
+    padding: 10px;
+    border: 1px dashed gray;
+    margin-bottom: 20px;
+}
+.u-reply .r-img img {
+    width: 35px;
+    height: 35px;
+    margin-left: -80%;
+    border-radius: 100%;
+
+}
+.u-reply .r-user {
+    margin-top: -35px;
+    margin-left: -63%;
+}
+.u-reply .r-time {
+    margin-right: -60%;
+    margin-top: -18px;
+}
+.u-reply .r-review {
+    margin-left: -50%;
+}

@@ -1,0 +1,270 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="baidu-site-verification" content="O3piXjY8N9" />
+  <meta name="Keywords" content="博客,情侣博客" >
+  <meta name="Description" content="情侣博客" >
+  <meta name="HandheldFriendly" content="true">
+  <title>回忆-我的青春</title>
+  <link href="css/login.css" rel="stylesheet">
+  <link href="css/regist.css" rel="stylesheet">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/swiper.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <script src="js/jquery.js"></script>
+  <script src="js/swiper.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/localUrl.js"></script>
+  <!-- icons-->
+  <script src="https://use.fontawesome.com/55b5a1fcdd.js"></script>
+</head>
+<body  >
+<script>
+    var musicarr=['白昼之夜','风居住的街道','爱情转移','十年','丢了幸福的猪','闹够了没有','愿得一人心'];
+    var index=parseInt(Math.random()*musicarr.length)+1;
+    var secM=musicarr[index];
+    $(".music").innerHTML+="<embed src='music/"+secM+".mp3' hidden='true' autostart='true' loop='true' >";
+</script>
+   <div class="music"></div>
+<!--<embed src='music/白昼之夜.mp3' hidden='true' autostart='true' loop='true' >-->
+<!--登陆/注册-->
+  <div id="back" >
+    <div class="box2" id="login" style="display: none" >
+      <div class="login5">
+        <h2>管理员登录</h2>
+        <a class="close"></a>  <!--╳-->
+      </div>
+      <div class="login51">
+        <div name="login5form"  >
+          <div class="login5left">
+            <span></span>
+            <!-- 账号-->
+            <div class="login5left1">
+              <i class="fa fa-user fa-2x" aria-hidden="true"></i></i><input type="text" id="user" placeholder="用户名" />
+            </div>
+            <!-- 密码-->
+            <div class="login5left1">
+              <i class="fa fa-lock fa-2x" aria-hidden="true"></i><input type="password" id="psd" placeholder="密码" />
+            </div>
+            <!--验证码 -->
+            <div class="login5left1">
+              <i class="fa fa-qrcode fa-2x " aria-hidden="true"></i><input type="text"   class="ipt_vry" name="ipt_vry" placeholder="验证码" />
+              <input  type="button" id='l_checkCode' class="pro_vry" name="pro_vry"  value="" onclick="init()">
+            </div>
+            <!-- 登录-->
+            <div class="login5left2">
+              <button class="dl" onclick="login()">登录</button>
+              <a style="cursor: pointer" class="wjmm" onclick="getPassword()">忘记密码？</a>
+            </div>
+          </div>
+          <div class="login5right">
+            <span></span>
+            <div class="login5right1">
+              <a class="sjdl">手机短信登录</a>
+            </div>
+            <div class="login5right2">
+              没有账号？<a style="cursor: pointer"  class="zcdl" onclick="userRegist()">快速注册</a>
+            </div>
+            <div class="login5right3">
+              <b class="found"></b>合作账号登录<b class="back"></b>
+            </div>
+            <div class="login5right4">
+              <a class="wb">微信</a>
+              <a class="qq">QQ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box2" id="regist" style="display: none" >
+      <div class="regist5">
+        <a class="back"></a>
+        <h2>用户注册</h2>
+        <a class="close"></a>  <!--╳-->
+      </div>
+      <div class="regist51">
+        <div name="regist5form"  >
+          <div class="regist5left">
+            <span></span>
+            <!-- 账号-->
+            <div class="regist5left1">
+              <label> 用户名：</label><input type="text"  id="username"  placeholder="用户名" />
+            </div>
+            <!-- 密码-->
+            <div class="regist5left1">
+              <label> 密&nbsp;&nbsp; 码：</label> <input type="password" id="password"  placeholder="密码" />
+            </div>
+            <div class="regist5left1">
+              <label> 邮&nbsp;&nbsp;  箱：</label> <input type="text" id="email"  placeholder="邮箱" />
+            </div>
+            <div class="regist5left1">
+              <label> 手机号：</label><input type="text" id="phone" placeholder="手机号" />
+            </div>
+            <!--验证码 -->
+            <div class="regist5left1">
+              <label> 验证码：</label> <input type="text"   class="ipt_vry" name="ipt_vry" placeholder="验证码" />
+              <input style="font-size: 24px; text-align: match-parent" type="button"
+                     id='r_checkCode' class="pro_vry" name="pro_vry"  value="" onclick="init()">
+            </div>
+            <!-- 注册-->
+            <div class="regist5left2">
+              <button class="dl" onclick="regist()">注册</button>
+             </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="topnav" id="head" name="f" >
+    <font >我的青春，我的《回忆》――HY</font>
+  </div>
+  <!-- 导航栏-->
+  <header>
+    <div class="quotes">
+      <p>初遇时，她的微笑，她往日的深情、承诺和傻劲，两个人共度的美丽时刻，一一印在回忆里，今天的感情已经比不上从前，但是我爱着恋着往日的她，舍不得离开。</p>
+      <div class="text5">记录・回忆</div>
+      <div class="flower"><img src="images/flower.jpg"></div>
+    </div>
+    <!--nav begin-->
+    <div id="nav">
+      <ul>
+        <li class="nav"  ><div class="checked" ><a href="index.html">首页</a></div></li>
+        <li class="nav"  ><div  ><a href="about.html">关于我</a></div></li>
+        <li class="nav" ><div  ><a href="whisper.html">悄悄话</a></div></li>
+        <li class="nav"  ><div  ><a href="life.html">慢生活</a></div></li>
+        <li class="nav"  ><div  ><a href="ontheroad.html">在路上</a></div></li>
+        <li class="nav"  ><div  ><a href="message.html">留言板</a></div></li>
+      </ul>
+    </div>
+    <!--nav end-->
+  </header>
+
+
+  <div class="front">
+    <!-- 照片墙-->
+    <div class="photowall">
+    <ul class="wall_a">
+      <li><a href="/"><img src="images/p01.jpg">
+        <figcaption>
+          <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
+        </figcaption>
+      </a></li>
+      <li><a href="/"><img src="images/p02.jpg">
+        <figcaption>
+          <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
+        </figcaption>
+      </a></li>
+      <li><a href="/"><img src="images/p03.jpg">
+        <figcaption>
+          <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
+        </figcaption>
+      </a></li>
+      <li>
+        <div class="trans">
+        <p class="text_a"><a href="/">一个人最好的模样大概是平静一点，坦然接受自己所有的弱点，不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏......</a></p>
+        </div>
+      </li>
+      <li><a href="/"><img src="images/p04.jpg">
+        <figcaption>
+          <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
+        </figcaption>
+      </a></li>
+      <li>
+        <div class="trans">
+        <p class="text_b"  ><a href="/">逃避自己的人，最终只能导致自己世界的崩塌，而变得越来越没有安全感。</a></p>
+        </div>
+      </li>
+      <li><a href="/"><img src="images/p05.jpg">
+        <figcaption>
+          <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
+        </figcaption>
+      </a></li>
+      <li><a href="/"><img src="images/p06.jpg">
+        <figcaption>
+          <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
+        </figcaption>
+      </a></li>
+    </ul>
+  </div>
+     <!--风景墙-->
+    <div class="views">
+    <div class="carousel">
+      <!-- Swiper -->
+      <div class="swiper-container gallery-top">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" ><img src="index/slide1.jpg" alt=""/></div>
+          <div class="swiper-slide" ><img src="index/slide2.jpg" alt=""/></div>
+          <div class="swiper-slide" ><img src="index/slide3.jpg" alt=""/></div>
+          <div class="swiper-slide" ><img src="index/slide4.jpg" alt=""/></div>
+          <div class="swiper-slide" ><img src="index/slide5.jpg" alt=""/></div>
+         </div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+      </div>
+      <div class="swiper-container gallery-thumbs">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"  ><img src="index/slide1.jpg" alt=""/> </div>
+          <div class="swiper-slide"  ><img src="index/slide2.jpg" alt=""/></div>
+          <div class="swiper-slide"  ><img src="index/slide3.jpg" alt=""/></div>
+          <div class="swiper-slide"  ><img src="index/slide4.jpg" alt=""/></div>
+          <div class="swiper-slide"  ><img src="index/slide5.jpg" alt=""/></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+  //关闭
+ // $(document).ready(function(){
+    statu();
+    $('.login5 a').click(function(){
+      $('.box2').hide();
+    });
+  $('.regist5 a').click(function(){
+    $('.box2').hide();
+  });
+  $('.regist5 .back').click(function(){
+    var btn_login=document.getElementById("login");
+    var btn_regist=document.getElementById("regist");
+    btn_regist.style.display='none';
+    btn_login.style.display='block';
+  });
+ // });
+
+</script>
+  <footer>
+    <p>Copyright © 2017 HC. All Rights Reserved. HC 版权所有 皖ICP备17023783号 &nbsp;&nbsp;&nbsp;
+    Design by <a href="index.html" target="_blank">HC</a></p>
+  </footer>
+  <script>
+    //swiper
+    $(document).ready(function () {
+    var galleryTop = new Swiper('.gallery-top', {
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 5,
+      loop:true,
+      loopedSlides: 5, //looped slides should be the same
+    });
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 5,
+      slidesPerView: 4,
+      touchRatio: 0.2,
+      loop:true,
+      loopedSlides: 5, //looped slides should be the same
+      slideToClickedSlide: true
+    });
+    galleryTop.params.control = galleryThumbs;
+    galleryThumbs.params.control = galleryTop;
+    })
+  </script>
+</body>
+</html>

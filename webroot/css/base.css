@@ -1,0 +1,156 @@
+@charset "utf-8";
+* {
+    margin: auto; padding: 0;
+}
+a:link, a:visited
+{
+    text-decoration: none;
+}
+ul, li {
+    list-style-type: none;
+}
+img {
+    border: 0;
+}
+body {
+    width: 120%;
+    height: auto;
+    font-size: 12px;
+    background: #226039 url(../images/bg.jpg) center 0 scroll no-repeat;
+    color: #5d5d5d;
+}
+.topnav {
+    margin-left: -10px;
+    line-height: 50px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    background:#93cc93;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    box-shadow: #333 0px 2px 2px;
+}
+.topnav a {
+    font-size: 14px;
+    color: red;
+    margin-left: 10%;
+
+}
+.login {
+    color: orange;
+    font-size: 16px;
+    height: 45px;
+    background: space;
+
+}
+
+/* header */
+header {
+    width: 110%;
+    margin: auto;
+    border-bottom: #3c7a48 1px solid;
+}
+.quotes {
+
+    position: relative;
+    margin: 60px auto 120px auto;
+}
+.quotes p {
+    margin-left: 30px;
+    text-shadow: #246640 1px 1px 1px;
+    color: #fff;
+    width: 330px;
+    line-height: 26px;
+}
+.text5 {
+    position: absolute;
+    left: 0px; top: 160px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 30px;
+    color: #FFF;
+    -webkit-box-reflect:
+        below -3px -webkit-gradient(linear, 0 0, 0 100%, from(transparent),
+        to(white));
+}
+.flower {
+    position: absolute;
+    right: 0;
+    top:20px;
+    background: url(../images/flower.png) no-repeat;
+    width: 173px;
+    height: 175px;
+    z-index: 2;
+}
+.flower img { margin: 22px 0 0 17px; display: block; }
+
+/* nav */
+#nav {
+    width: 100%;
+    line-height: 50px;
+    height: 60px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    background: rgba(56,134,72,.8);
+    text-align: center;
+    position: relative;
+    border-bottom: #559765 1px solid;
+}
+#nav ul {
+    width: 100%;
+    margin: auto;
+    height: 60px;
+    overflow: hidden;
+}
+#nav ul li {
+    width: 70px;
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#nav ul li div {
+    width: 100px ;
+    float: left;
+    margin-top: 6px;
+
+}
+#nav ul li div a{
+    color: white;
+    text-decoration: none;
+}
+#nav ul li div :hover{
+    width: 100px ;
+    float: left;
+    /*添加弧度边角*/
+    border-radius:10px;
+    -moz-border-radius:10px; /* 老的 Firefox */
+
+    background: firebrick;
+    font-size: 25px;
+    /*阴影*/
+    /*box-shadow: 10px 10px 5px gray;*/
+    /*移动  旋转 偏转*/
+    transform: translate(10px,0px) rotate(0deg) skew(0deg,0deg);
+    -ms-transform: translate(0px,0px) rotate(0deg) skew(0deg,0deg);		/* IE 9 */
+    -webkit-transform: translate(0px,0px) rotate(0deg) skew(0deg,0deg);	/* Safari and Chrome */
+    -o-transform: translate(0px,0px) rotate(0deg) skew(0deg,0deg);		/* Opera */
+    -moz-transform: translate(0px,0px) rotate(0deg) skew(0deg,0deg);
+}
+
+#nav ul li .checked {
+    width: 100px;
+    float: left;
+    /*添加弧度边角*/
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* 老的 Firefox */
+    background: maroon;
+    font-size: 25px;
+}
+
+/*footer*/
+footer{ width: 110%; background:#032e13; height:56px; line-height:56px;}
+footer p{  margin:auto; text-align:center;color:#559664 }
+footer p a{color:#559664}
+footer p a:hover{ text-decoration:underline}

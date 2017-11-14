@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="baidu-site-verification" content="O3piXjY8N9" />
+    <title>回忆-我的青春_留言板</title>
+<meta name="Keywords" content="博客,情侣博客" >
+<meta name="Description" content="情侣博客" >
+<link href="css/message.css" rel="stylesheet">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/messagefenye.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="https://use.fontawesome.com/55b5a1fcdd.js"></script>
+     <script src="js/messagefenye.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/localUrl.js"></script>
+    <script src="js/userStatu.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="ueditor/ueditor.all.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="js/ueditorRoad.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="ueditor/lang/zh-cn/zh-cn.js"></script>
+ </head>
+<body>
+<div class="topnav"  >
+             <font color="white" size="6px" >
+             <marquee direction="left"  height="50" >
+             留言板————满天星云下，感到无边的落寞。也许流星能体会。我期待，飘飘雪花的日子，你的心带来了一屡芬芳。
+             </marquee>
+             </font>
+</div>
+<header>
+  <div class="quotes">
+    <p>初遇时，她的微笑，她往日的深情、承诺和傻劲，两个人共度的美丽时刻，一一印在回忆里，今天的感情已经比不上从前，但是我爱着恋着往日的她，舍不得离开。</p>
+    <div class="text5">记录・回忆</div>
+    <div class="flower"><img src="images/flower.jpg"></div>
+  </div>
+  <!--nav begin-->
+  <div id="nav">
+    <ul >
+        <li class="nav"  ><div  ><a href="index.html">首页</a></div></li>
+        <li class="nav"  ><div  ><a href="about.html">关于我</a></div></li>
+        <li class="nav" ><div  ><a href="whisper.html">悄悄话</a></div></li>
+        <li class="nav"  ><div  ><a href="life.html">慢生活</a></div></li>
+        <li class="nav"  ><div  ><a href="ontheroad.html">在路上</a></div></li>
+        <li class="nav"  ><div class="checked" ><a href="message.html">留言板</a></div></li>
+    </ul>
+  </div>
+ </header>
+
+ <div class="hopelist">
+  <ul id="allmessage">
+    <div class="visitors" id="message">
+
+    </div>
+  </ul>
+     <div class="dv-big-page">
+         <div class="dv-margin-left"></div>
+         <div class="dv-page-box">
+             <div class="dv-page-position-box">
+                     <li class="li_prew" id="prew" name="1"  onclick="initPrewPage()"><<</li>
+                     <div class="dv_btns_box" id="messagelist" >
+                     </div>
+                     <li class="li_next" id="next" name="6" onclick="initNextPage()">>></li>
+             </div>
+         </div>
+     </div>
+ </div>
+
+<div class="blank"></div>
+<div class="text6">留言・祝福</div>
+<div class="hope">
+  <ul>
+    <div class="message">
+        <label style="margin-top: 1px" ><h1>给我留言:</h1></label>
+        <div class="message-editor">
+            <script>var ue = UE.getEditor('editor');</script>
+            <script id="editor" style="width=500px; height=400px" type="text/plain"></script>
+        </div>
+       	 <!--<p><textarea style=" font-size: 24px;" id="phone" class="tips" name="message" placeholder="说两句吧。。。"-->
+                      <!--onkeypress="showKeyPress()"></textarea> </p>-->
+
+        <button id="submit"  onclick="send()" > 发表</button>
+     </div>
+  </ul>
+</div>
+<footer>
+    <p>Copyright © 2017 HC. All Rights Reserved. HC 版权所有 皖ICP备17023783号 &nbsp;&nbsp;&nbsp;
+        Design by <a href="index.html" target="_blank">HC</a></p></footer>
+</body>
+</html>

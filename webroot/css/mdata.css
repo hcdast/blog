@@ -1,0 +1,306 @@
+/*top*/
+i {
+    cursor: pointer;
+}
+
+.data{
+    display: none;
+}
+
+.top{
+    height: 40px;
+    border: 1px solid greenyellow;
+    color: white
+}
+.top .fa-tags {
+    width: auto;
+    height: auto;
+    margin: 35px 0px 0px 0px;
+}
+.top .moudle {
+    width: 100px;
+    margin-top: -26px;
+    margin-left: -1100px;
+}
+.top .moudle select {
+    margin: 10px -100px 0px 0px;
+    font-size: 20px;
+}
+.top .pr_ne {
+    margin: -25px 0px 0px 0px;
+}
+.top .fa-reply {
+    background: lightseagreen;
+
+}
+.top .fa-share {
+    background: lightseagreen;
+    margin-left: 40px;
+
+}
+.top .fa-sort {
+    margin: -50px 0px 0px 0px;
+
+}
+.top .sort {
+    margin-top: -26px;
+    margin-left: -600px;
+}
+.top .sort select {
+    font-size: 20px;
+}
+
+.top .refresh {
+    margin: -25px 0px 0px 500px;
+}
+
+
+.top .find {
+    width: auto;
+    margin: -27px 0px 0px 990px;
+
+}
+.top .find .fa-user-circle {
+
+}
+.top .find input {
+    font-size: 18px;
+    width: 150px;
+}
+.top .find i {
+    cursor: hand;
+ }
+
+/*whisper*/
+#data .d-whisper{
+    height: 400px;
+    border: 1px solid greenyellow;
+    color: white;
+    display: block;
+}
+#data .d-whisper .d-w-label{
+    border: 1px solid gray;
+}
+#data .d-whisper .d-w-label label{
+    font-size: 16px;
+    color: white;
+    border: 1px solid gray;
+}
+#data .d-whisper .d-w-label .d-w-id {margin-left: 30px}
+#data .d-whisper .d-w-label .d-w-author {margin-left: 160px}
+#data .d-whisper .d-w-label .d-w-content {margin-left: 250px}
+#data .d-whisper .d-w-label .d-w-time {margin-left: 300px}
+#data .d-whisper .d-w-label .d-w-action {margin-left: 160px}
+#data .d-whisper .d-w-list .d-w-doc {
+    height:auto;
+    color: white;
+    font-size: 16px;
+}
+#data .d-whisper .d-w-list .d-w-doc div {
+    height: 50px;
+    display: block;
+    float: left;
+    border: 1px solid gray;
+}
+#data .d-whisper .d-w-list .d-w-doc .d-w-doc_i {  width: 200px; text-align: center; padding-top: 20px; }
+#data .d-whisper .d-w-list .d-w-doc .d-w-doc_u {  width: 200px; text-align: center; padding-top: 20px;  }
+#data .d-whisper .d-w-list .d-w-doc .d-w-doc_c {  width: 400px; text-align: center; padding-top: 0px; }
+#data .d-whisper .d-w-list .d-w-doc .d-w-doc_t {  width: 250px; text-align: center; padding-top: 20px;}
+#data .d-whisper .d-w-list .d-w-doc .d-w-doc_e {  width: 135px; text-align: center; padding-top: 20px;}
+#data .d-whisper .d-w-list .d-w-doc .d-w-doc_c {  width: 400px; height: 70px; overflow: scroll; font-size: 14px; cursor: pointer;  }
+#data .d-whisper .d-w-list .d-w-doc .d-w-doc_c textarea {  width: 400px; height: 70px; font-size: 14px }
+#data .d-whisper .d-w-list .d-w-doc .d-w-doc_e button { margin-left: 20px }
+
+/*life*/
+#data .d-life{
+    height: 400px;
+    border: 1px solid greenyellow;
+    color: white;
+    display: none;
+}
+#data .d-life .d-l-label{
+    border: 1px solid gray;
+}
+#data .d-life .d-l-label label{
+    font-size: 16px;
+    color: white;
+    border: 1px solid gray;
+}
+#data .d-life .d-l-label .d-l-id {margin-left: 0px}
+#data .d-life .d-l-label .d-l-title {margin-left: 150px}
+#data .d-life .d-l-label .d-l-author {margin-left: 80px}
+#data .d-life .d-l-label .d-l-type {margin-left: 10px}
+#data .d-life .d-l-label .d-l-content {margin-left:200px}
+#data .d-life .d-l-label .d-l-time {margin-left: 250px}
+#data .d-life .d-l-label .d-l-action {margin-left: 150px}
+#data .d-life .d-l-list .d-l-doc {
+    height:auto;
+    color: white;
+    font-size: 16px;
+}
+#data .d-life .d-l-list .d-l-doc div {
+    height: 50px;
+    display: block;
+    float: left;
+    border: 1px solid gray;
+}
+#data .d-life .d-l-list .d-l-doc .d-l-doc_i {  width: 140px; text-align: center; padding-top: 20px; }
+#data .d-life .d-l-list .d-l-doc .d-l-doc_tl {  width: 200px; text-align: center;overflow: scroll; padding-top: 20px; }
+#data .d-life .d-l-list .d-l-doc .d-l-doc_u {  width: 50px; text-align: center; padding-top: 20px;  }
+#data .d-life .d-l-list .d-l-doc .d-l-doc_ty {  width: 50px; text-align: center; padding-top: 20px;  }
+#data .d-life .d-l-list .d-l-doc .d-l-doc_c {  width: 300px; text-align: center; padding-top: 0px; }
+#data .d-life .d-l-list .d-l-doc .d-l-doc_t {  width: 200px; text-align: center; padding-top: 20px; }
+#data .d-life .d-l-list .d-l-doc .d-l-doc_e {  width: 144px; text-align: center; padding-top: 20px;}
+#data .d-life .d-l-list .d-l-doc .d-l-doc_c {  width: 400px; height: 70px; overflow: scroll; font-size: 14px; cursor: pointer;  }
+#data .d-life .d-l-list .d-l-doc .d-l-doc_tl textarea {  width: 200px; height: 70px; font-size: 14px;margin-top: -20px; }
+#data .d-life .d-l-list .d-l-doc .d-l-doc_c textarea {  width: 400px; height: 70px; font-size: 14px; margin-top: -20px; }
+#data .d-life .d-l-list .d-l-doc .d-l-doc_e button { margin-left: 20px }
+/*road*/
+#data .d-road{
+    height: 400px;
+    border: 1px solid greenyellow;
+    color: white;
+    display: none;
+
+}
+#data .d-road .d-r-label{
+    border: 1px solid gray;
+}
+#data .d-road .d-r-label label{
+    font-size: 16px;
+    color: white;
+    border: 1px solid gray;
+}
+#data .d-road .d-r-label .d-r-id {margin-left: 0px}
+#data .d-road .d-r-label .d-r-title {margin-left: 150px}
+#data .d-road .d-r-label .d-r-author {margin-left: 80px}
+#data .d-road .d-r-label .d-r-type {margin-left: 10px}
+#data .d-road .d-r-label .d-r-content {margin-left:200px}
+#data .d-road .d-r-label .d-r-time {margin-left: 250px}
+#data .d-road .d-r-label .d-r-action {margin-left: 150px}
+#data .d-road .d-r-list .d-r-doc {
+    height:auto;
+    color: white;
+    font-size: 16px;
+}
+#data .d-road .d-r-list .d-r-doc div {
+    height: 50px;
+    display: block;
+    float: left;
+    border: 1px solid gray;
+}
+#data .d-road .d-r-list .d-r-doc .d-r-doc_i {  width: 140px; text-align: center; padding-top: 20px; }
+#data .d-road .d-r-list .d-r-doc .d-r-doc_tl {  width: 200px; text-align: center;overflow: scroll; padding-top: 20px; }
+#data .d-road .d-r-list .d-r-doc .d-r-doc_u {  width: 50px; text-align: center; padding-top: 20px;  }
+#data .d-road .d-r-list .d-r-doc .d-r-doc_ty {  width: 50px; text-align: center; padding-top: 20px;  }
+#data .d-road .d-r-list .d-r-doc .d-r-doc_c {  width: 300px; text-align: center; padding-top: 0px; }
+#data .d-road .d-r-list .d-r-doc .d-r-doc_t {  width: 200px; text-align: center; padding-top: 20px; }
+#data .d-road .d-r-list .d-r-doc .d-r-doc_e {  width: 144px; text-align: center; padding-top: 20px;}
+#data .d-road .d-r-list .d-r-doc .d-r-doc_c {  width: 400px; height: 70px; overflow: scroll; font-size: 14px; cursor: pointer;  }
+#data .d-road .d-r-list .d-r-doc .d-r-doc_tl textarea {  width: 200px; height: 70px; font-size: 14px; margin-top: -20px; }
+#data .d-road .d-r-list .d-r-doc .d-r-doc_c textarea {  width: 400px; height: 70px; font-size: 14px;margin-top: -20px; }
+#data .d-road .d-r-list .d-r-doc .d-r-doc_e button { margin-left: 20px }
+
+/*blog*/
+.d-blog{
+    height: 400px;
+    border: 1px solid greenyellow;
+    color: white;
+    display: none;
+}
+.d-blog .d-b-label{
+    border: 1px solid gray;
+}
+.d-blog .d-b-label label{
+    font-size: 16px;
+    color: white;
+    border: 1px solid gray;
+}
+.d-blog .d-b-label .d-b-id {margin-left: 30px}
+.d-blog .d-b-label .d-b-author {margin-left: 160px}
+.d-blog .d-b-label .d-b-content {margin-left: 250px}
+.d-blog .d-b-label .d-b-time {margin-left: 300px}
+.d-blog .d-b-label .d-b-action {margin-left: 160px}
+.d-blog .d-b-list .d-b-doc {
+    height:auto;
+    color: white;
+    font-size: 16px;
+}
+.d-blog .d-b-list .d-b-doc div {
+    height: 50px;
+    display: block;
+    float: left;
+    border: 1px solid gray;
+}
+.d-blog .d-b-list .d-b-doc .d-b-doc_i {  width: 200px; text-align: center; padding-top: 20px; }
+.d-blog .d-b-list .d-b-doc .d-b-doc_u {  width: 200px; text-align: center; padding-top: 20px;  }
+.d-blog .d-b-list .d-b-doc .d-b-doc_c {  width: 400px; text-align: center; padding-top: 0px; }
+.d-blog .d-b-list .d-b-doc .d-b-doc_t {  width: 250px; text-align: center; padding-top: 20px;}
+.d-blog .d-b-list .d-b-doc .d-b-doc_e {  width: 135px; text-align: center; padding-top: 20px;}
+.d-blog .d-b-list .d-b-doc .d-b-doc_c {  width: 400px; height: 70px; overflow: scroll; font-size: 14px; cursor: pointer;  }
+.d-blog .d-b-list .d-b-doc .d-b-doc_c textarea {  width: 400px; height: 70px; font-size: 14px }
+.d-blog .d-b-list .d-b-doc .d-b-doc_e button { margin-left: 20px }
+
+/*user*/
+#data .d-user{
+    height: 400px;
+    border: 1px solid greenyellow;
+    color: white;
+    display: none;
+}
+#data .d-user .d-u-label{
+    border: 1px solid gray;
+}
+#data .d-user .d-u-label label{
+    font-size: 16px;
+    color: white;
+    border: 1px solid gray;
+}
+#data .d-user .d-u-label .d-u-id {margin-left: 20px}
+#data .d-user .d-u-label .d-u-user {margin-left: 90px}
+#data .d-user .d-u-label .d-u-psd {margin-left: 90px}
+#data .d-user .d-u-label .d-u-email {margin-left: 130px}
+#data .d-user .d-u-label .d-u-phone {margin-left:160px}
+#data .d-user .d-u-label .d-u-flag {margin-left:100px}
+#data .d-user .d-u-label .d-u-time {margin-left: 70px}
+#data .d-user .d-u-label .d-u-action {margin-left: 30px}
+#data .d-user .d-u-list .d-u-doc {
+    height:auto;
+    color: white;
+    font-size: 16px;
+}
+#data .d-user .d-u-list .d-u-doc div {
+    height: 50px;
+    display: block;
+    float: left;
+    border: 1px solid gray;
+}
+#data .d-user .d-u-list .d-u-doc .d-u-doc_i {  width: 140px; text-align: center; padding-top: 20px; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_u {  width: 120px; text-align: center; overflow: scroll; padding-top: 20px; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_p {  width: 150px; text-align: center; overflow: scroll; padding-top: 20px;  }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_e {  width: 200px; height: 70px; text-align: center; overflow: scroll; padding-top: 0px; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_ph {  width: 150px; text-align: center; overflow: scroll; padding-top: 20px; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_t {  width: 250px; text-align: center; padding-top: 20px; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_f {  width: 50px; text-align: center; padding-top: 20px; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_a {  width: 120px; text-align: center; padding-top: 20px;}
+#data .d-user .d-u-list .d-u-doc .d-u-doc_u textarea {  width: 120px; height: 70px; font-size: 14px; margin-top: -20px; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_p textarea {  width: 150px; height: 70px; font-size: 14px; margin-top: -20px; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_e textarea {  width: 200px; height: 70px; font-size: 14px; text-align: center; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_ph textarea {  width: 150px; height: 70px; font-size: 14px; margin-top: -20px; }
+#data .d-user .d-u-list .d-u-doc .d-u-doc_a button { margin-left: 20px }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

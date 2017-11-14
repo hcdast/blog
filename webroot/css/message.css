@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0; padding: 0 }
+a:link, a:visited { text-decoration: none; }
+ul, li { list-style-type: none }
+img { border: 0; }
+body { font-size: 12px; background: #226039 url(../images/bg.jpg) center 0 scroll no-repeat; color: #5d5d5d; }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+/* header */
+header { width: 100%; margin: auto; border-bottom: #3c7a48 1px solid }
+.quotes { width: 1000px; position: relative; margin: 60px auto 120px auto; }
+.quotes p { text-shadow: #246640 1px 1px 1px; color: #fff; width: 330px; line-height: 26px; }
+.text5 { position: absolute; left: 0px; top: 160px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 30px; color: #FFF; -webkit-box-reflect: below -3px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); }/* belowÎÄ×Öµ¹Ó°·½ÏòÏòÏÂ£¬¾àÀë3px ÑÕÉ«½¥±äÓÉÉÏÍùÏÂ */
+.flower { position: absolute; right: 0; top: 60px; background: url(../images/flower.png) no-repeat; width: 173px; height: 175px; z-index: 2 }
+.flower img { margin: 22px 0 0 17px; display: block; }
+/* nav */
+#nav { width: 100%; line-height: 50px; height: 50px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; background: rgba(56,134,72,.8); text-align: center; position: relative; border-bottom: #559765 1px solid }
+#nav ul { width: 1000px; margin: auto; }
+#nav ul li { display: inline; margin: 0 12px; text-align: center; }
+#nav ul li a { color: #fff; }
+
+/*回复*/
+#allmessage .visitors .table {
+    padding-top: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 120px;
+    width: 500px;
+    height: 100px;
+    margin-left: 485px;
+    border-radius: 10px;
+    border: 2px solid;
+    background: palegoldenrod;
+}
+#allmessage .visitors .table textarea {
+    width: 95%;
+    height: 90%;
+    font-size: 16px;
+    color: brown;
+    background: palegoldenrod;
+    border-color: palegoldenrod;
+    outline:none
+}
+#allmessage .visitors .btn {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background: palegoldenrod;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-left: 885px;
+    margin-top: 5px;
+    padding-top: 2px;
+}
+#allmessage .visitors .btn button {
+    width: 90%;
+    background: palegoldenrod;
+    height: 90%;
+    font-size: 16px;
+    outline:none;
+    border: none;
+}
+
+/*留言列表*/
+#allmessage .visitors .reply {
+    width: 100%;
+    height: auto;
+    text-align: right;
+    margin-left: -2%;
+}
+#allmessage .visitors .reply dl{
+    border: none;
+}
+
+#allmessage .visitors .act {
+    margin-right: 50px;
+    float: right;
+    margin-bottom: 10px;
+}
+#allmessage .visitors .act i {
+    margin-left: 10px;
+    cursor: pointer;
+    /*color:maroon;*/
+}
+#allmessage .visitors .act a {
+    color: gray;
+}
+#allmessage .visitors .act a:hover {
+    color: maroon;
+}
+
+#allmessage .visitors .reply dl{
+    width: 94%;
+    padding: 10px;
+    height: auto;
+    border: 1px outset lightgreen;
+}
+#allmessage .visitors .reply img{
+    height: 70px;
+    width: 70px;
+    margin: 0px 0px -60px 430px;
+}
+#allmessage .visitors .reply dd{
+    margin: 0px 10% 0px 0px;
+    color: yellowgreen;
+    line-height: 2.0;
+    font-size: 14px;
+}
+#allmessage .visitors .reply .time {
+    margin: 0px 9% 0px 0px;
+}
+#allmessage .visitors .reply .user {
+    cursor: pointer;
+    width: 10%;
+    margin-left: 81%;
+}
+#allmessage .visitors .reply dt {
+    float: right;
+}
+
+/* hope */
+.text6 {font-family: "Î¢ÈíÑÅºÚ"; font-size: 30px; color: #FFF; -webkit-box-reflect: below 1px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); width:1000px; margin:auto  }
+.hopelist{
+    width: 110%;
+    border-top:50px #559664 solid; padding:20px; color:#FFF }
+.hopelist ul{ width:1000px; margin:auto; overflow:hidden}
+
+.visitors{ width:100%; float:left }
+.visitors dl {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 12px;
+    border-bottom: 1px dashed  gray ;
+}
+.visitors dt { float: left; }
+.visitors dt img { width: 100px; height: 100px; margin-right: 20px; border-radius:100% }
+.visitors dd { margin-left: 120px; line-height: 22px; }
+.visitors .user { color: darkorange }
+.visitors dd a{ color:moccasin; font-size:14px;}
+
+.visitors dd a:hover {
+    /*color:#d2ec40;*/
+    font-size:16px; font-weight:bold;
+    text-decoration: underline;
+}
+
+.visitors dt+dd{ margin-top:20px}
+
+/*blank*/
+.hope{
+    width: 110%;
+    border-top:50px #559664 solid; padding:20px; color:#FFF }
+.hope ul{ width:1000px;height: auto; margin:auto;background: url(../images/love.png) no-repeat left center; overflow:hidden}
+.message{
+    width: 50%;
+    float: right;
+}
+
+.message-editor {
+     overflow: scroll;
+     margin-left: 0px;
+     width: 500px;
+     height: 300px;
+}
+
+.message-editor .edui-editor-iframeholder {
+     height: 244px;
+     background: url(../life/bg3.jpg) no-repeat left center;
+     background-size: cover;
+}
+
+
+#submit {
+	color:white;
+	background: darkkhaki;
+    font-size: 24px;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+ }
+
+/*footer*/
+footer{ background:#032e13; height:56px; line-height:56px;}
+footer p{ width:1000px; margin:auto; text-align:right;color:#559664 }
+footer p a{color:#559664}
+footer p a:hover{ text-decoration:underline}
+/*topnav*/
+.topnav{ line-height:50px; height:50px; color:#000; text-align:center; position:fixed; width:100%; top:0; z-index:999; box-shadow:#333 0px 2px 2px}
+
+

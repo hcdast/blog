@@ -1,0 +1,32 @@
+
+ul {
+	margin: 20px 0px 0px 540px;
+	padding: 0;
+	list-style: none;
+}
+div.contentin {
+	display: block;
+}
+#tabsecond li {
+	float: left;
+ 	color: green;
+	padding: 5px;
+	margin-right: 2px;
+	cursor: pointer;
+}
+#tabsecond li.tabin {
+	color: white;
+	border: 1px solid whitesmoke;
+	border-bottom: 0;
+	z-index: 100;
+	position: relative;
+}
+#contentsecond {
+	width: 1222px;
+	height: auto;
+	padding: 10px;
+ 	clear: left;
+	border: 1px solid white;
+	position: relative;
+	top: -1px;
+}

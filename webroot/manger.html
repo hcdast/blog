@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="baidu-site-verification" content="O3piXjY8N9" />
+<title>回忆-我的青春</title>
+<meta name="Keywords" content="博客,情侣博客" >
+<meta name="Description" content="情侣博客" >
+    <link href="css/managerbase.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/manager.css" />
+    <link rel="stylesheet" href="css/mwhisper.css"/>
+    <link rel="stylesheet" href="css/mlife.css"/>
+    <link rel="stylesheet" href="css/mroad.css"/>
+    <link rel="stylesheet" href="css/mdata.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/manger.js"></script>
+    <script type="text/javascript" src="js/createFile.js"></script>
+    <script src="https://use.fontawesome.com/55b5a1fcdd.js"></script>
+
+    <!--<script type="text/javascript" charset="utf-8" src="road/ueditor/ueditor.config.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="road/ueditor/ueditor.all.js"> </script>-->
+     <!--<script type="text/javascript" charset="utf-8" src="road/ueditor/lang/zh-cn/zh-cn.js"></script>-->
+ </head>
+
+<body>
+<div class="topnav">
+             <font color="white" size="6px" >我的青春，我的《回忆》――HY</font>    
+</div>
+<header>
+  <div class="quotes">
+    <p>初遇时，她的微笑，她往日的深情、承诺和傻劲，两个人共度的美丽时刻，一一印在回忆里，今天的感情已经比不上从前，但是我爱着恋着往日的她，舍不得离开。</p>
+    <div class="text5">记录・回忆</div>
+    <div class="flower"><img src="images/flower.jpg"></div>
+  </div>
+   <div id="nav">
+    <ul>
+        <li class="nav"  ><div  ><a href="index.html">首页</a></div></li>
+        <li class="nav"  ><div  ><a href="about.html">关于我</a></div></li>
+        <li class="nav" ><div  ><a href="whisper.html">悄悄话</a></div></li>
+        <li class="nav"  ><div  ><a href="life.html">慢生活</a></div></li>
+        <li class="nav"  ><div ><a href="ontheroad.html">在路上</a></div></li>
+        <li class="nav"  ><div  ><a href="message.html">留言板</a></div></li>
+     </ul>
+  </div>
+ </header>
+
+    <div class="main" align="center" >
+      <ul id="tabsecond">
+        <li class="tabin"><h1>悄悄话</h1></li>
+        <li><h1>慢生活</h1></li>
+        <li><h1>在路上</h1></li>
+        <li><h1>数据处理</h1></li>
+
+      </ul>
+      <div id="contentsecond" >
+        <div id="realcontent">
+<!--whisper-->
+            <div id="whisper" class="whisper">
+                <div class="w_author">
+                    <div class="w_lbl"><h1>我是谁：</h1></div>
+                    <div class="w_tp" id="w_athl">
+                        <input type="radio" id="w_hc" value="hc" name="author"/>HC
+                        <input  type="radio" id="w_yn" value="yn" name="author"/>YN
+                    </div>
+                </div>
+
+                <div class="w_content">
+                    <div class="w_con"><h1>我要说：</h1></div>
+                    <div class="w_txta"><textarea name="content" id="w_content" cols="10" rows="10"  ></textarea></div>
+                </div>
+                <div class="w_btn"><button type="submit"  onclick="postWhisper()">真心忍不住啦。。。</button></div>
+            </div>
+<!--life-->
+            <div id="life" class="life">
+                <div class="l_title" >
+                    <div class="l_lable"> <h1>标题：</h1></div>
+                    <div class="l_textT">
+                        <input  type="text" id="l_title" name="title"/></div>
+                </div>
+
+                <div class="l_author">
+                    <div class="l_lbl"><h1>作者：</h1></div>
+                    <div class="l_tp" id="l_athl">
+                        <input type="radio" id="l_hc" value="hc" name="author"/>HC
+                        <input type="radio" id="l_yn" value="yn" name="author"/>YN
+                    </div>
+                </div>
+                <div class="l_type" >
+                    <div class="l_ty"><h1>属性： </h1></div>
+                    <div class="l_lec" ><select  id="l_type" name="type" >
+                        <option>学习</option>
+                        <option>生活</option>
+                        <option>工作</option>
+                        <option>感情</option>
+                    </select></div>
+                </div>
+
+                <div class="l_content">
+                    <div class="l_con"><h1>内容：</h1></div>
+                    <div class="l_txta">
+                        <textarea style="background: url('life/bg3.jpg')"  name="content" id="l_content" cols="10" rows="10"  ></textarea></div>
+                </div>
+                <div class="l_btn">
+                    <button  style="background: url('life/bg3.jpg')"  type="submit"   onclick="postLife()">发表</button></div>
+            </div>
+<!--road-->
+            <div id="road" class="r_road">
+                <div class="left">
+                <div class="r_title" >
+                    <div class="r_lable"> <h1>标题：</h1></div>
+                    <div class="r_textT">
+                        <input style="background: url('life/bg3.jpg')"  type="text" id="r_title" name="title"/>
+                    </div>
+                </div>
+                <div class="r_author">
+                    <div class="r_lbl"><h1>作者：</h1></div>
+                    <div class="r_tp" id="r_athl">
+                        <input type="radio" id="r_hc" value="hc" name="author"/>HC
+                        <input type="radio" id="r_yn" value="yn" name="author"/>YN
+                    </div>
+                </div>
+                <div class="r_type" >
+                    <div class="r_ty"><h1>分类： </h1></div>
+                    <div class="r_lec" >
+                        <select  id="r_type" name="type" >
+                        <option>学习</option>
+                        <option>生活</option>
+                        <option>工作</option>
+                        <option>感情</option>
+                    </select></div>
+                </div>
+
+                <div class="r_content">
+                    <div class="r_con"><h1>内容：</h1></div>
+                    <div class="r_txta">
+            <textarea style="background: url('life/bg3.jpg')"
+                      name="content" id="r_content" placeholder="把文章大概信息记录在这吧。。。"></textarea></div>
+                </div>
+                <div class="r_btn"><button   type="submit" class="btn btn-default" onclick="runRoad()">发表</button></div>
+                </div>
+                <div class="right">
+                    <script>
+                        $("#realcontent .right").load("road/ueditor/ueditor.html");
+                    </script>
+
+
+
+
+                    <!--<form name="upfile">-->
+                        <!--<div class="editor">-->
+                            <!--<script id="editor" style="width=500px; height=400px" type="text/plain"></script>-->
+                            <!--<script>var ue = UE.getEditor('editor'-->
+<!--//                                    ,{-->
+<!--//                                //这里可以选择自己需要的工具按钮名称,此处仅选择如下五个-->
+<!--//                                toolbars:[['FullScreen', 'Source', 'Undo', 'Redo','Bold','test']],-->
+<!--//                                //focus时自动清空初始化时的内容-->
+<!--//                                autoClearinitialContent:true,-->
+<!--//                                //关闭字数统计-->
+<!--//                                wordCount:false,-->
+<!--//                                //关闭elementPath-->
+<!--//                                elementPathEnabled:false,-->
+<!--//                                //默认的编辑区域高度-->
+<!--//                                initialFrameHeight:300-->
+<!--//                                //更多其他参数，请参考ueditor.config.js中的配置项-->
+<!--//                            }-->
+                            <!--);</script>-->
+                         <!--</div>-->
+                         <!--<div id="btns" class="act-btn">-->
+                             <!--<input type="submit"  />-->
+                            <!--&lt;!&ndash;<button class="btn" unselected="on" onclick="getAllHtml()">获得整内容</button>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<button onclick="getContent()">获得内容</button>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<button onclick="setContent()">写入内容</button>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<button onclick="setContent(true)">追加内容</button>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<button id="enable" onclick="setEnabled()">可以编辑</button>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<button onclick="setDisabled()">不可编辑</button>&ndash;&gt;-->
+                         <!--</div>-->
+                    <!--</form>-->
+                </div>
+            </div>
+<!--data-->
+            <div id="data" class="data">
+                <div class="top" >
+                    <!-- 模块-->
+                    <div class="moudle">
+                        <i class="fa fa-tags fa-2x" title="模块" aria-hidden="true">模块</i>
+                        <select name="moudle" id="moudle" onchange="showMoudle(this.value,'up')">
+                            <option value="null" selected="selected">请选择</option>
+                            <option value="whisper">悄悄话</option>
+                            <option value="life">慢生活</option>
+                            <option value="road">在路上</option>
+                            <option value="blog">留言板</option>
+                            <option value="user">用户</option>
+                        </select>
+                    </div>
+                    <!-- 排序-->
+                    <div class="sort">
+                        <i class="fa fa-sort fa-2x" title="排序" aria-hidden="true">排序</i>
+                        <select name="sort" id="sort" onchange="showSort(this.value)">
+                            <option value="down" selected="selected">正序</option>
+                            <option value="up" >倒序</option>
+                        </select>
+                    </div>
+                    <!-- 分页-->
+                    <div class="pr_ne" >
+                        <i class="fa fa-reply fa-2x" aria-hidden="true"  id="0" title="上一页" onclick="pre(this)">上一页</i>
+
+                        <i class="fa fa-share fa-2x" aria-hidden="true" id="5" title="下一页" onclick="next(this)">下一页</i>
+                    </div>
+
+                    <div class="refresh" onclick="refresh()">
+                        <i class="fa fa-refresh fa-2x" aria-hidden="true" title="刷新" >刷新</i>
+                    </div>
+
+                    <!-- 搜索-->
+                    <div class="find">
+                        <!--<i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>-->
+                        <input type="text" name="user" id="user" placeholder="输入查找的用户" />
+                        <i class="fa fa-search fa-2x" title="搜索" aria-hidden="true" >搜索</i>
+                    </div>
+                </div>
+                <!-- whisper-->
+                <div class="d-whisper" id="d-whisper">
+                    <div class="d-w-label">
+                        <label class="d-w-id">标号</label>
+                        <label class="d-w-author">用户</label>
+                        <label class="d-w-content"> 内容</label>
+                        <label class="d-w-time">时间</label>
+                        <label class="d-w-action">操作</label>
+                    </div>
+                    <div class="d-w-list" id="d-w-list">
+
+                </div>
+                </div>
+                <!-- life-->
+                <div class="d-life" id="d-life">
+                    <div class="d-l-label">
+                        <label class="d-l-id">标号</label>
+                        <label class="d-l-title">标题</label>
+                        <label class="d-l-author">作者</label>
+                        <label class="d-l-type">类别</label>
+                        <label class="d-l-content"> 内容</label>
+                        <label class="d-l-time">时间</label>
+                        <label class="d-l-action">操作</label>
+                    </div>
+                    <div class="d-l-list" id="d-l-list">
+
+                    </div>
+                </div>
+                <!-- road-->
+                <div class="d-road" id="d-road">
+                    <div class="d-r-label">
+                        <label class="d-r-id">标号</label>
+                        <label class="d-r-title">标题</label>
+                        <label class="d-r-author">作者</label>
+                        <label class="d-r-type">类别</label>
+                        <label class="d-r-content"> 内容</label>
+                        <label class="d-r-time">时间</label>
+                        <label class="d-r-action">操作</label>
+                    </div>
+                    <div class="d-r-list" id="d-r-list">
+
+                    </div>
+                </div>
+                <!-- blog-->
+                <div class="d-blog" id="d-blog">
+                    <div class="d-b-label">
+                        <label class="d-b-id">标号</label>
+                        <label class="d-b-author">用户</label>
+                        <label class="d-b-content"> 内容</label>
+                        <label class="d-b-time">时间</label>
+                        <label class="d-b-action">操作</label>
+                    </div>
+                    <div class="d-b-list" id="d-b-list">
+                    </div>
+                </div>
+                <!-- user-->
+                <div class="d-user" id="d-user">
+                    <div class="d-u-label">
+                        <label class="d-u-id">ID号</label>
+                        <label class="d-u-user">用户</label>
+                        <label class="d-u-psd">密码</label>
+                        <label class="d-u-email">邮箱</label>
+                        <label class="d-u-phone">手机</label>
+                        <label class="d-u-time">注册时间</label>
+                        <label class="d-u-flag">管理员（是/否）</label>
+                        <label class="d-u-action">操作</label>
+                    </div>
+                    <div class="d-u-list" id="d-u-list">
+                    </div>
+                </div>
+                <!--<div class="foot"></div>-->
+            </div>
+        </div>
+      </div>
+    </div>
+<footer>
+    <p>Copyright © 2017 HC. All Rights Reserved. HC 版权所有 皖ICP备17023783号 &nbsp;&nbsp;&nbsp;
+        Design by <a href="index.html" target="_blank">HC</a></p>
+</footer>
+
+</body>
+</html>

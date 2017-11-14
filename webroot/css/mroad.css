@@ -1,0 +1,171 @@
+.r_road {
+    display: none;
+    height: 500px;
+    margin-left: 60px;
+}
+.left {
+    display: block;
+    float: left;
+    width: 500px;
+    border: green solid 1px;
+}
+/*title*/
+.r_title{
+    margin-bottom: -20px;
+}
+.r_title .r_lable {
+    margin-left: -30px;
+    color: white;
+    height: 60px;
+    width:150px ;
+    display: block;
+    float: left
+}
+#r_title {
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    text-align: center
+}
+.r_title .r_textT{
+    display: block;
+    height: 60px;
+    margin: 20px 0px 0px 0px
+}
+/*author*/
+.r_author{
+    margin-bottom: -20px;
+}
+.r_author .r_lbl{
+    margin-left: -30px;
+    color: white;
+    height: 60px;
+    width: 150px;
+    display: block;
+    float: left
+}
+.r_author .r_tp{
+    color: white;
+    display: block;
+    width: 400px;
+    height: 60px;
+    margin: 20px 0px 0px 0px;
+    font-size: 30px
+}
+.r_author .r_tp .r_au{
+    height: 30px;
+    margin: 0px 0px 0px -150px;
+    text-align: center
+}
+/*type*/
+.r_type{
+    margin-bottom: -60px;
+}
+.r_type .r_ty{
+    margin-left: -30px;
+    color: white;
+    height: 60px;
+    width: 150px;
+    display: block;
+    float: left
+}
+.r_type .r_lec{
+    height: 30px;
+    margin: 25px 0px 100px 0px;
+    text-align: center
+}
+#r_type{
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+    text-align: center
+}
+/*path*/
+.r_path{
+    margin-bottom: -20px;
+}
+.r_path .r_lable {
+    margin-left: -30px;
+    color: white;
+    height: 60px;
+    width: 150px;
+    display: block;
+    float: left
+}
+#r_path {
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    text-align: center;
+}
+.r_path .r_textT{
+    display: block;
+    height: 60px;
+    margin: 20px 0px 0px 0px
+}
+/*content*/
+.r_content{
+    margin-top: 30px
+}
+.r_content .r_con{
+    margin-left: -30px;
+    margin-top: 10px;
+    color: white;
+    height: 60px;
+    width: 150px;
+    display: block;
+    float: left;
+}
+.r_content .r_txta{
+    height: 100px;
+}
+#r_content{
+    font-size: 20px;
+    height: 150px;
+    width: 350px;
+}
+.r_btn button {
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 350px;
+    height: 30px;
+    background: url(../life/bg3.jpg) no-repeat center;
+    background-size: cover;
+}
+/*ср╡Ю*/
+.right {
+    height: 500px;
+    width: 600px;
+    margin-left: 20px;
+    display: block;
+    float: left;
+    border: green solid 1px;
+}
+
+.right div {
+    /*height: 450px;*/
+    width: 100%;
+}
+
+.right .editor {
+    overflow: scroll;
+    width: 600px;
+    height: 470px;
+}
+
+.edui-default .edui-editor-iframeholder {
+    height: 420px;
+    background: url(../life/bg3.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+.right .act-btn{
+    border: white solid 2px;
+}
+
+.right .act-btn button {
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+}

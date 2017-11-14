@@ -1,0 +1,63 @@
+
+*{ padding:0px; margin:0px;}
+a{ text-decoration:none;}
+ul{ list-style-type:none;}
+.box{ float:left; position:relative; padding:1px; top:10%;  opacity:0.5;z-index:4;  opacity:1; }
+
+.box2{ width:100%; height:100%; margin:34px auto;   z-index:5; position:fixed; background:rgba(0, 0, 0, 0.52) none repeat scroll 0% 0%; opacity:1;}
+.regist5{ width:500px;  background:#b52200; text-align:center; position:relative; margin:10px auto 0px auto;}
+.regist5 .back{ background:url(../img/back.jpg) 0px 0px no-repeat;
+    position:absolute;
+    width:30px; height:30px;
+    right:460px; top:18px;}
+.regist5 h2{ font-size:30px; line-height:65px; color:#ffffff;}
+.regist5 a{ background:url(../img/login_reg.png) 0px 0px no-repeat;
+    position:absolute; width:16px; height:16px; right:10px; top:25px;}
+.regist51{
+    width:500px;
+    padding:0px 40px 0px;
+    margin:0 auto;
+    background:#EFEFEF;
+    height:350px; }
+.regist5left{ float:left; width:220px; height:200px; font-size:13px;}
+.regist5left span{ line-height:24px; color:#f00; margin-left:10px;}
+.regist5left1{margin-left: 60px;width: 350px; margin-bottom:18px;
+    float:left; position:relative; display:block;}
+
+.regist5left1 label{
+    color: brown;
+    font-size: 14px;
+
+}
+
+.regist5left1 input{ text-indent:10px; width:220px; color:#999;
+    font-size:13px; height:30px; line-height:40px;
+    border:1px solid #999; border-radius:5px;}
+
+.regist5left1 .ipt_vry {
+    text-indent: 10px;
+    width: 90px;
+    color: #999;
+    font-size: 13px;
+    height: 30px;
+    line-height: 40px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.regist5left1 .pro_vry {
+    margin: 0px -10px 0px 0px;
+    text-indent: 10px;
+    width: 120px;
+    color: #999;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+
+.regist5left2{margin-left: 100px;
+    height:45px; line-height:45px; width:100%; margin-bottom:22px; float:left; position:relative; display:block;}
+.regist5left2 .dl{ float:left; width:97px; height:45px; line-height:45px; text-align:center; background:none repeat scroll 0% 0% #55ACEF; color:#fff; border-radius:5px; display:inline-block; font-size:14px; outline:medium none;}
+.regist5left2 .wjmm{ color:#55ACEF; margin-left:20px;}
